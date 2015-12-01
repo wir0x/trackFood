@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					94E42A8B1C09CD6800C0D82B = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ABHV2V532E;
 					};
 					94E42A9F1C09CD6800C0D82B = {
 						CreatedOnToolsVersion = 7.2;
@@ -327,7 +328,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salazar.velasquez.gonzalo.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,7 +341,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FoodTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.salazar.velasquez.gonzalo.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
